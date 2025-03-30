@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "playwright": "^1.50.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.51.0",
+    "@types/node": "^22.13.10"
+  },
+  "rules": {
+    "@typescript-eslint/no-floating-promises": "error"
+  },
+  "scripts": {}
+}
