@@ -4,10 +4,6 @@ import { MainPage } from '../models/MainPage';
 // let mainPage: MainPage;
 
 test.describe('тесты главной страницы', () => {
-  // test.beforeEach(async ({ page }) => {
-  //  mainPage = new MainPage(page);
-  //  await mainPage.openMainPage();
-  // });
 test('Проверка отображения элементов навигации хедера', async ({ mainPage }) => {
     await mainPage.checkElementsVisability();
   });
